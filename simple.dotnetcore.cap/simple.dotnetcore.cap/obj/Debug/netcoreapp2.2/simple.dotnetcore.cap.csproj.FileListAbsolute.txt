@@ -1,0 +1,14 @@
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\bin\Debug\netcoreapp2.2\simple.dotnetcore.cap.deps.json
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\bin\Debug\netcoreapp2.2\simple.dotnetcore.cap.runtimeconfig.json
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\bin\Debug\netcoreapp2.2\simple.dotnetcore.cap.runtimeconfig.dev.json
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\bin\Debug\netcoreapp2.2\simple.dotnetcore.cap.dll
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\obj\Debug\netcoreapp2.2\simple.dotnetcore.cap.csproj.CoreCompileInputs.cache
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\obj\Debug\netcoreapp2.2\simple.dotnetcore.cap.RazorAssemblyInfo.cache
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\obj\Debug\netcoreapp2.2\simple.dotnetcore.cap.RazorAssemblyInfo.cs
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\obj\Debug\netcoreapp2.2\simple.dotnetcore.cap.AssemblyInfoInputs.cache
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\obj\Debug\netcoreapp2.2\simple.dotnetcore.cap.AssemblyInfo.cs
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\obj\Debug\netcoreapp2.2\simple.dotnetcore.cap.RazorTargetAssemblyInfo.cache
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\bin\Debug\netcoreapp2.2\simple.dotnetcore.cap.pdb
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\obj\Debug\netcoreapp2.2\simple.dotnetcore.cap.dll
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\obj\Debug\netcoreapp2.2\simple.dotnetcore.cap.pdb
+D:\我的文档\Documents\GitHub\simple.dotnetcore.cap\simple.dotnetcore.cap\simple.dotnetcore.cap\obj\Debug\netcoreapp2.2\simple.dotnetcore.cap.csprojAssemblyReference.cache
