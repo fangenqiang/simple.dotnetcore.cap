@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using DotNetCore.CAP;
@@ -22,8 +23,9 @@ namespace simple.dotnetcore.cap.Controllers
         /// 不使用事务
         /// </summary>
         /// <returns></returns>
-        [Route("/Publish/WithoutTransacton")]
-        public IActionResult WithoutTransacton()
+        [Route("/Publish/PublishMessageWithoutTransacton")]
+        public IActionResult PublishMessageWithoutTransacton()
+
         {
             _capPublisher.PublishAsync("simple.dotnetcore.cap.showtime", DateTime.Now, "callback-show-execute-time");
             return Ok();
@@ -33,6 +35,27 @@ namespace simple.dotnetcore.cap.Controllers
         public void ShowPublishTimeAndReturnExecuteTime(DateTime time)
         {
             Console.WriteLine(time);
+        }
+        /// <summary>
+        /// 使用事务
+        /// </summary>
+        /// <returns></returns>
+        [Route("/Publish/PublishMessageWithTransaction")]
+        public IActionResult PublishMessageWithTransaction()
+        {
+            using (var connection = new SqlConnection(""))
+            {   
+                using (var transaction = connection.BeginTransaction(_capPublisher, autoCommit: true))
+                {
+                    //业务代码
+
+
+                    _capPublisher.PublishAsync("simple.dotnetcore.cap.showtime", DateTime.Now, "callback-show-execute-time");
+
+                    transaction.Commit();
+                }
+            }
+            return Ok();
         }
     }
 }

@@ -43,8 +43,8 @@ namespace simple.dotnetcore.cap
                 //配置RabbitMQ
                 options.UseRabbitMQ(rabbitMqOptions =>
                 {
-                    //宿主地址	
-                    rabbitMqOptions.HostName="locahost";
+                    //宿主地址
+                    rabbitMqOptions.HostName = "localhost";
                     //用户名	
                     rabbitMqOptions.UserName = "guest";
                     //密码
@@ -52,7 +52,7 @@ namespace simple.dotnetcore.cap
                     //虚拟主机	
                     rabbitMqOptions.VirtualHost = "/";
                     //端口号	
-                    rabbitMqOptions.Port =-1;
+                    rabbitMqOptions.Port = -1;
                     //CAP默认Exchange名称	
                     rabbitMqOptions.ExchangeName = "cap.default.topic";
                     //RabbitMQ连接超时时间	
